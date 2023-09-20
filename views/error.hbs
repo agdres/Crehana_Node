@@ -1,0 +1,19 @@
+<h1 style="background-color: #8c8c8c; font-family:'Times New Roman', Times, serif; font-size:1.8rem" class="p-2 mb-3 text-white d-flex justify-content-center"><span>Mis Libros</span></h1>
+
+<div class="container">
+    <div class="row mb-3">
+        <h2 class="col-12 display-2 d-flex justify-content-center">Algo anda mal 😔</h2>
+    </div>
+    <div class="row mb-3">
+        <h3 class="col-12 d-flex justify-content-center">{{mensaje}}</h3>
+    </div>
+    <div class="row">
+        {{#if error}}
+            <div class="col-12">
+                <p class="mb-3">Status de error: {{error.status}}</p>
+                Detalle:
+                <pre>{{error.stack}}</pre></p>
+            </div>
+        {{/if}}
+    </div>
+</div>

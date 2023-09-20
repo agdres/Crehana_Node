@@ -1,0 +1,38 @@
+{
+    "48d3821f-3b82-4eea-8d89-3341aed5b80c": {
+        "titulo": "Shadowhunters",
+        "autor": "Cassandra Clare",
+        "calificacion": "100",
+        "id": "48d3821f-3b82-4eea-8d89-3341aed5b80c"
+    },
+    "04749d32-fbdb-4a1e-993d-fb95a2cd81af": {
+        "titulo": "El psicoanalista",
+        "autor": "John Katzenbach",
+        "calificacion": "80",
+        "id": "04749d32-fbdb-4a1e-993d-fb95a2cd81af"
+    },
+    "2877f861-d071-4450-9b12-dac58a73603b": {
+        "titulo": "El código Da Vinci",
+        "autor": "Dan Brown",
+        "calificacion": "100",
+        "id": "2877f861-d071-4450-9b12-dac58a73603b"
+    },
+    "3de5c3bf-feaf-4628-b078-a6037fa4a26a": {
+        "titulo": "Harry Potter",
+        "autor": "J. K. Rowling",
+        "calificacion": "90",
+        "id": "3de5c3bf-feaf-4628-b078-a6037fa4a26a"
+    },
+    "d448b3f0-8205-4a83-9420-4aa8347f54f6": {
+        "titulo": "Pie de Bruja",
+        "autor": "Carolina Andújar",
+        "calificacion": "100",
+        "id": "d448b3f0-8205-4a83-9420-4aa8347f54f6"
+    },
+    "794b1424-c6d3-45dc-8ab7-3e141dd9718f": {
+        "titulo": "Vajda. Príncipe inmortal",
+        "autor": "Carolina Andújar",
+        "calificacion": "100",
+        "id": "794b1424-c6d3-45dc-8ab7-3e141dd9718f"
+    }
+}
