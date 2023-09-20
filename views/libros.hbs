@@ -1,0 +1,42 @@
+<h1 style="background-color: #8c8c8c; font-family:'Times New Roman', Times, serif; font-size:1.8rem" class="p-2 mb-3 text-white d-flex justify-content-center"><span>Mis Libros</span></h1>
+
+<div class="container">
+    <div class="row mb-3">
+        <div class="col-5">
+            <a  href="/libros/nueva"  data-bs-toggle="tooltip" title="Agregar Libro">
+                <button class="btn btn-primary">
+                    <span>Nuevo Libro</span>
+                </button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row gy-4">
+        {{#each data}}
+        <div class="col-md-4">
+            <div class="card">
+                <div style="text-transform: uppercase; font-family: serif; background-color: #465e8c;" class="card-header text-center text-white">
+                    {{this.titulo}}
+                </div>
+                <div class="card-body row">
+                    <div class="col-md-9">
+                    <h6 class="card-title text-secondary">Autor: {{this.autor}}</h5>
+                        <h6 class="card-title text-secondary">Calificacion: {{this.calificacion}}</h5>
+
+                    </div>
+                    <div class="col-md">
+                    <div class="mb-3 text-end">
+                        <a href="/libros/{{this.id}}" class="btn btn-outline-secondary btn-sm " data-bs-toggle="tooltip"
+                            title="Editar">
+                            <i class="bi bi-pencil-square" style="font-size: 1rem; color: success;"></i>
+                        </a>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
